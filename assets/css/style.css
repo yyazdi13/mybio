@@ -9,6 +9,50 @@
 
 }
 
+#one:hover {
+  background-color: antiquewhite;
+}
+
+#one {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+  border-collapse: collapse;
+  padding: 20px;
+  margin: 0;
+  width: 900px;
+}
+
+#two:hover {
+  background-color: antiquewhite;
+}
+
+#two {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+border-collapse: collapse;
+padding: 20px;
+margin: 0;
+width: 900px;
+}
+
+#three:hover {
+  background-color: antiquewhite;
+}
+
+#three {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+border-collapse: collapse;
+padding: 20px;
+margin: 0;
+width: 900px;
+height: 150px;
+}
+
+#submit {
+  float: left;
+  margin-top: 20px;
+}
 .space {
 padding: 20px;
 }
@@ -57,26 +101,17 @@ p {
 
 .container {
     width: 960px;
-    height: 400px;
+    height: 600px;
     background: #ffffff;
     margin: 0 auto 0 auto;
     padding: 20px;
     margin-top: 50px;
-    margin-bottom: 50px;
     overflow: auto;
     clear: both;
     border: 1px solid #dddddd;
   border-collapse: collapse;
 }
 
-
-#bio-image {
-    float: left;
-    margin: 20px;
-    overflow: auto;
-    clear: both;
-    
-}
 
 #footer {
     background-color: #4aaaa5;
@@ -96,58 +131,9 @@ p {
     
 }
 
-.img {
-  margin: 53px;
-  float: top;
-  width: 210px;
-  height: 180px;
-  margin-top: 0;
-  border: 1px solid orchid; 
-}
-
-#pup {
-  background-color: #4aaaa5;
-    width: 210px;
-    position: relative;
-    left: 53px;
-    top: 250px;
-}
-
-.pups {
-  color: #eee;
-  font-size: 24px;
-  text-align: center;
-  margin: 0;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-#pup2 {
-  background-color: #4aaaa5;
-    width: 211px;
-    position: relative;
-    left: 375px;
-    top: 220px;
-}
-
-#pup3 {
-  background-color: #4aaaa5;
-    width: 211px;
-    position: relative;
-    left: 53px;
-    top: 400px;
-}
-
-#pup4 {
-  background-color: #4aaaa5;
-    width: 211px;
-    position: relative;
-    left: 375px;
-    top: 390px;
-}
-
-#image-box {
-  position: relative;
-  top: -125px;
-  margin:0;
-  padding: 0;
+button:active {
+  background-color: rgb(201, 177, 177);
+  width: 80px;
+  height: 30px;
+  border-color: hotpink;
 }
