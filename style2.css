@@ -67,6 +67,7 @@ p {
     clear: both;
     border: 1px solid #dddddd;
   border-collapse: collapse;
+  flex: 1 0 auto;
 }
 
 
@@ -80,6 +81,7 @@ p {
 
 #footer {
     background-color: #4aaaa5;
+    flex-shrink: 0;
     padding: 10px;
     height: 10px;
     
