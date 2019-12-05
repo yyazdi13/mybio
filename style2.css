@@ -1,22 +1,22 @@
 #name {
     background-color: #4aaaa5;
-    position: relative;
-    margin: 0;
-    padding: 20px;
-    left: 190px;
-    top: 0;
-    width: 15%;
+    display: flex;
+    align-content: flex-start;
+    margin-left: 100px;
+    padding: 15px;
+    width: 200px;
 
 }
 
 .space {
-padding: 20px;
+margin-top: -40px;
+margin-right: 20px;
 }
 
 #links {
-    position: absolute;
-    right: 20px;
-    top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 0;
 
 }
 
