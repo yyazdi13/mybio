@@ -23,16 +23,18 @@ margin-right: 20px;
 
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   line-height: 200%;
 
 }
 
-header {
+nav {
     background-color: #ffffff;
     border: 1px solid #cccccc;
-  border-collapse: collapse;
 }
 
 h1 {
@@ -66,8 +68,8 @@ p {
     overflow: auto;
     clear: both;
     border: 1px solid #dddddd;
-  border-collapse: collapse;
-  flex: 1 0 auto;
+    flex: 1 0 auto;
+    box-shadow: 1px 1px 2px 1px black;
 }
 
 
@@ -80,21 +82,15 @@ p {
 }
 
 #footer {
-    background-color: #4aaaa5;
-    flex-shrink: 0;
-    padding: 10px;
-    height: 10px;
+    background-color: #666666;
+    height: 55px;
     
 }
 
 #footer-div {
-    background-color: #666666;
-    padding: 10px;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    height: 20px;
-    width: 98.5%;
+    background-color: #4aaaa5;
+    height: 30px;
+    width: 100%;
     
 }
 
@@ -104,7 +100,8 @@ p {
   width: 210px;
   height: 180px;
   margin-top: 0;
-  border: 1px solid orchid; 
+  border: 2px solid rgb(85, 85, 85); 
+  box-shadow: 1px 1px 1px gray;
 }
 
 #pup {
@@ -145,6 +142,14 @@ p {
     position: relative;
     left: 375px;
     top: 390px;
+}
+
+#pup5 {
+  background-color: #4aaaa5;
+    width: 210px;
+    position: relative;
+    left: 53px;
+    top: 600px;
 }
 
 #image-box {

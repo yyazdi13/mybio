@@ -65,16 +65,18 @@ height: 150px;
 
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
   line-height: 200%;
 
 }
 
-header {
+nav {
     background-color: #ffffff;
     border: 1px solid #cccccc;
-  border-collapse: collapse;
 }
 
 h1 {
@@ -107,7 +109,7 @@ p {
     overflow: auto;
     clear: both;
     border: 1px solid #dddddd;
-  border-collapse: collapse;
+    box-shadow: 1px 1px 2px 1px black;
 }
 
 
