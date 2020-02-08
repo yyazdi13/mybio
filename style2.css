@@ -124,7 +124,7 @@ p {
   background-color: #4aaaa5;
     width: 211px;
     position: relative;
-    left: 375px;
+    left: 377px;
     top: 220px;
 }
 
@@ -140,7 +140,7 @@ p {
   background-color: #4aaaa5;
     width: 211px;
     position: relative;
-    left: 375px;
+    left: 378px;
     top: 390px;
 }
 
@@ -157,4 +157,8 @@ p {
   top: -125px;
   margin:0;
   padding: 0;
+}
+
+#repos{
+  margin-top: -10px;
 }
