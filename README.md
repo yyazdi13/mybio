@@ -1,5 +1,8 @@
 # mybio
 
-Short summary of my work and interests.
+Short summary of my work and interests.Portfolio of my work is included to showcase my capabilities as a full stack developer.
 
-Includes portfolio, contact form, and bio
+# Framework:
+•	HTML
+•	CSS
+•	Flex
