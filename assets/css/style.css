@@ -83,15 +83,16 @@ p {
 
 #footer {
     background-color: #666666;
-    height: 55px;
+    height: 50px;
+    margin-top: 20px;
     
 }
 
 #footer-div {
     background-color: #4aaaa5;
-    height: 30px;
+    height: 50px;
     width: 100%;
-    
+    margin-top: 35px;
 }
 
 .img {
@@ -208,4 +209,14 @@ border-collapse: collapse;
 padding: 20px;
 margin: 0;
 width: 900px;
+}
+
+.wrapper{
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
