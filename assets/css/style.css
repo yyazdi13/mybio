@@ -35,6 +35,7 @@ body {
 nav {
     background-color: #ffffff;
     border: 1px solid #cccccc;
+    width: 100%;
 }
 
 h1 {
@@ -59,10 +60,11 @@ p {
 
 .container {
     width: 960px;
-    height: 400px;
+    height: 55%;
     background: #ffffff;
     margin: 0 auto 0 auto;
-    padding: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
     margin-top: 50px;
     margin-bottom: 50px;
     overflow: auto;
@@ -109,7 +111,7 @@ p {
   background-color: #4aaaa5;
     width: 210px;
     position: relative;
-    left: 53px;
+    left: 55px;
     top: 250px;
 }
 
@@ -125,7 +127,7 @@ p {
   background-color: #4aaaa5;
     width: 211px;
     position: relative;
-    left: 377px;
+    left: 378px;
     top: 220px;
 }
 
@@ -133,7 +135,7 @@ p {
   background-color: #4aaaa5;
     width: 211px;
     position: relative;
-    left: 53px;
+    left: 55px;
     top: 450px;
 }
 
@@ -149,7 +151,7 @@ p {
   background-color: #4aaaa5;
     width: 210px;
     position: relative;
-    left: 53px;
+    left: 55px;
     top: 600px;
 }
 
