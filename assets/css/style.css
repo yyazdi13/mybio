@@ -60,11 +60,11 @@ p {
 
 .container {
     width: 960px;
-    height: 55%;
+    height: 58%;
     background: #ffffff;
     margin: 0 auto 0 auto;
     padding-bottom: 20px;
-    padding-left: 10px;
+    padding-left: 15px;
     margin-top: 50px;
     margin-bottom: 50px;
     overflow: auto;
@@ -221,4 +221,18 @@ width: 900px;
 html, body {
   height: 100%;
   margin: 0;
+}
+
+.img:hover{
+  opacity: 0.8;
+  border: 2px solid #4aaaa5;
+}
+
+.description{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #444242;
 }
