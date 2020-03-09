@@ -160,7 +160,7 @@ p {
     width: 211px;
     position: relative;
     left: 378px;
-    top: 600px;
+    top: 570px;
 }
 
 #image-box {
@@ -207,10 +207,10 @@ width: 900px;
 #three {
   background-color: #ffffff;
   border: 1px solid #cccccc;
-border-collapse: collapse;
-padding: 20px;
-margin: 0;
-width: 900px;
+  border-collapse: collapse;
+  padding: 20px;
+  margin: 0;
+  width: 900px;
 }
 
 .wrapper{
