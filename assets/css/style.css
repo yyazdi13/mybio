@@ -246,3 +246,9 @@ h6{
   color: #444242;
   font-size: 14px;
 }
+
+@media screen and (max-width: 600px){
+  footer, #footer-div{
+    visibility: hidden;
+  }
+}
