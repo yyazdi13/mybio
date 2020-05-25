@@ -48,7 +48,7 @@ h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#intro {
+.intro {
     text-align: left;
     color: #4aaaa5;
 }
@@ -237,7 +237,11 @@ html, body {
 
 a{
   color: #444242;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+span{
+  font-size: 18px;
 }
 
 h6{
@@ -247,8 +251,12 @@ h6{
   font-size: 14px;
 }
 
-@media screen and (max-width: 600px){
-  footer, #footer-div{
-    visibility: hidden;
+@media only screen and (max-width: 600px) {
+  #footer, #footer-div {
+    display: none;
+  }
+  .container {
+    height: fit-content;
+    overflow: hidden;
   }
 }
