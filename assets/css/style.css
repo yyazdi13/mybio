@@ -39,7 +39,7 @@ nav {
 }
 
 h1 {
-  color: #eee;
+  color: #eeee;
   font-size: 28px;
   text-align: center;
   margin: 0;
@@ -256,7 +256,17 @@ h6{
     display: none;
   }
   .container {
-    height: fit-content;
-    overflow: hidden;
+    width: fit-content;
+    overflow: scroll;
+    clear: right;
   }
+  .wrapper{
+    padding: 0;
+    margin: 0;
+    width: 200%;
+  }
+}
+
+.heading-name{
+  color: #4aaaa5;
 }
